@@ -1,0 +1,37 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2021-04-02 19:36:46.749  INFO 4748 --- [           main] com.mkyong.StartApplication              : Starting StartApplication v1.0 on Sekhar with PID 4748 (/home/raja/spring-boot-docker/target/spring-boot-web.jar started by raja in /home/raja/spring-boot-docker/target)
+2021-04-02 19:36:46.754  INFO 4748 --- [           main] com.mkyong.StartApplication              : No active profile set, falling back to default profiles: default
+2021-04-02 19:36:49.379  INFO 4748 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2021-04-02 19:36:49.400  INFO 4748 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-02 19:36:49.402  INFO 4748 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2021-04-02 19:36:49.533  INFO 4748 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-02 19:36:49.534  INFO 4748 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2610 ms
+2021-04-02 19:36:50.017  INFO 4748 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-02 19:36:50.158  INFO 4748 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-04-02 19:36:50.443  INFO 4748 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-04-02 19:36:50.468  INFO 4748 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-02 19:36:50.472 ERROR 4748 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8888 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8888 or configure this application to listen on another port.
+
+2021-04-02 19:36:50.476  INFO 4748 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
